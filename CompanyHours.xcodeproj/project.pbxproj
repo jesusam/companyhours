@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0019601174A500B005B219A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0019600174A500B005B219A /* QuartzCore.framework */; };
+		C01D3A4C1745A37200FAC6D2 /* CHAddWorkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C01D3A4B1745A37200FAC6D2 /* CHAddWorkerView.m */; };
+		C02143B917456549002E29C6 /* CHInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02143B817456549002E29C6 /* CHInitialViewController.m */; };
+		C02143BD17457270002E29C6 /* CHAddWorkerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02143BC17457270002E29C6 /* CHAddWorkerViewController.m */; };
 		C0A44F231743C5C20051139A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A44F221743C5C20051139A /* UIKit.framework */; };
 		C0A44F251743C5C20051139A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A44F241743C5C20051139A /* Foundation.framework */; };
 		C0A44F271743C5C20051139A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A44F261743C5C20051139A /* CoreGraphics.framework */; };
@@ -16,9 +20,23 @@
 		C0A44F351743C5C20051139A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A44F341743C5C20051139A /* Default.png */; };
 		C0A44F371743C5C20051139A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A44F361743C5C20051139A /* Default@2x.png */; };
 		C0A44F391743C5C20051139A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A44F381743C5C20051139A /* Default-568h@2x.png */; };
+		C0A44F441743C6ED0051139A /* CHWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A44F431743C6ED0051139A /* CHWorker.m */; };
+		C0A44F471743C6FA0051139A /* CHShift.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A44F461743C6FA0051139A /* CHShift.m */; };
+		C0D897771746CD1200A01F5B /* CHHoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D897761746CD1200A01F5B /* CHHoursViewController.m */; };
+		C0DDEF4B1746F3F500A993A2 /* CHAddShiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DDEF4A1746F3F500A993A2 /* CHAddShiftViewController.m */; };
+		C0DDEF4E1746F53A00A993A2 /* CHShiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DDEF4D1746F53A00A993A2 /* CHShiftViewController.m */; };
+		C0DDEF511746F54F00A993A2 /* CHShiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DDEF501746F54F00A993A2 /* CHShiftView.m */; };
+		C0DDEF541746F81300A993A2 /* CHAddShiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DDEF531746F81300A993A2 /* CHAddShiftView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0019600174A500B005B219A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C01D3A4A1745A37200FAC6D2 /* CHAddWorkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAddWorkerView.h; sourceTree = "<group>"; };
+		C01D3A4B1745A37200FAC6D2 /* CHAddWorkerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAddWorkerView.m; sourceTree = "<group>"; };
+		C02143B717456549002E29C6 /* CHInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHInitialViewController.h; sourceTree = "<group>"; };
+		C02143B817456549002E29C6 /* CHInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHInitialViewController.m; sourceTree = "<group>"; };
+		C02143BB17457270002E29C6 /* CHAddWorkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAddWorkerViewController.h; sourceTree = "<group>"; };
+		C02143BC17457270002E29C6 /* CHAddWorkerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAddWorkerViewController.m; sourceTree = "<group>"; };
 		C0A44F1E1743C5C20051139A /* CompanyHours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompanyHours.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A44F221743C5C20051139A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0A44F241743C5C20051139A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +50,20 @@
 		C0A44F341743C5C20051139A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C0A44F361743C5C20051139A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C0A44F381743C5C20051139A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C0A44F421743C6ED0051139A /* CHWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHWorker.h; sourceTree = "<group>"; };
+		C0A44F431743C6ED0051139A /* CHWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHWorker.m; sourceTree = "<group>"; };
+		C0A44F451743C6FA0051139A /* CHShift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHShift.h; sourceTree = "<group>"; };
+		C0A44F461743C6FA0051139A /* CHShift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHShift.m; sourceTree = "<group>"; };
+		C0D897751746CD1200A01F5B /* CHHoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHHoursViewController.h; sourceTree = "<group>"; };
+		C0D897761746CD1200A01F5B /* CHHoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHHoursViewController.m; sourceTree = "<group>"; };
+		C0DDEF491746F3F500A993A2 /* CHAddShiftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAddShiftViewController.h; sourceTree = "<group>"; };
+		C0DDEF4A1746F3F500A993A2 /* CHAddShiftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAddShiftViewController.m; sourceTree = "<group>"; };
+		C0DDEF4C1746F53A00A993A2 /* CHShiftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHShiftViewController.h; sourceTree = "<group>"; };
+		C0DDEF4D1746F53A00A993A2 /* CHShiftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHShiftViewController.m; sourceTree = "<group>"; };
+		C0DDEF4F1746F54E00A993A2 /* CHShiftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHShiftView.h; sourceTree = "<group>"; };
+		C0DDEF501746F54F00A993A2 /* CHShiftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHShiftView.m; sourceTree = "<group>"; };
+		C0DDEF521746F81300A993A2 /* CHAddShiftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAddShiftView.h; sourceTree = "<group>"; };
+		C0DDEF531746F81300A993A2 /* CHAddShiftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAddShiftView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0019601174A500B005B219A /* QuartzCore.framework in Frameworks */,
 				C0A44F231743C5C20051139A /* UIKit.framework in Frameworks */,
 				C0A44F251743C5C20051139A /* Foundation.framework in Frameworks */,
 				C0A44F271743C5C20051139A /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +101,7 @@
 		C0A44F211743C5C20051139A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0019600174A500B005B219A /* QuartzCore.framework */,
 				C0A44F221743C5C20051139A /* UIKit.framework */,
 				C0A44F241743C5C20051139A /* Foundation.framework */,
 				C0A44F261743C5C20051139A /* CoreGraphics.framework */,
@@ -81,6 +115,26 @@
 				C0A44F311743C5C20051139A /* CHAppDelegate.h */,
 				C0A44F321743C5C20051139A /* CHAppDelegate.m */,
 				C0A44F291743C5C20051139A /* Supporting Files */,
+				C0A44F421743C6ED0051139A /* CHWorker.h */,
+				C0A44F431743C6ED0051139A /* CHWorker.m */,
+				C0A44F451743C6FA0051139A /* CHShift.h */,
+				C0A44F461743C6FA0051139A /* CHShift.m */,
+				C02143B717456549002E29C6 /* CHInitialViewController.h */,
+				C02143B817456549002E29C6 /* CHInitialViewController.m */,
+				C02143BB17457270002E29C6 /* CHAddWorkerViewController.h */,
+				C02143BC17457270002E29C6 /* CHAddWorkerViewController.m */,
+				C01D3A4A1745A37200FAC6D2 /* CHAddWorkerView.h */,
+				C01D3A4B1745A37200FAC6D2 /* CHAddWorkerView.m */,
+				C0D897751746CD1200A01F5B /* CHHoursViewController.h */,
+				C0D897761746CD1200A01F5B /* CHHoursViewController.m */,
+				C0DDEF491746F3F500A993A2 /* CHAddShiftViewController.h */,
+				C0DDEF4A1746F3F500A993A2 /* CHAddShiftViewController.m */,
+				C0DDEF521746F81300A993A2 /* CHAddShiftView.h */,
+				C0DDEF531746F81300A993A2 /* CHAddShiftView.m */,
+				C0DDEF4C1746F53A00A993A2 /* CHShiftViewController.h */,
+				C0DDEF4D1746F53A00A993A2 /* CHShiftViewController.m */,
+				C0DDEF4F1746F54E00A993A2 /* CHShiftView.h */,
+				C0DDEF501746F54F00A993A2 /* CHShiftView.m */,
 			);
 			path = CompanyHours;
 			sourceTree = "<group>";
@@ -167,6 +221,16 @@
 			files = (
 				C0A44F2F1743C5C20051139A /* main.m in Sources */,
 				C0A44F331743C5C20051139A /* CHAppDelegate.m in Sources */,
+				C0A44F441743C6ED0051139A /* CHWorker.m in Sources */,
+				C0A44F471743C6FA0051139A /* CHShift.m in Sources */,
+				C02143B917456549002E29C6 /* CHInitialViewController.m in Sources */,
+				C02143BD17457270002E29C6 /* CHAddWorkerViewController.m in Sources */,
+				C01D3A4C1745A37200FAC6D2 /* CHAddWorkerView.m in Sources */,
+				C0D897771746CD1200A01F5B /* CHHoursViewController.m in Sources */,
+				C0DDEF4B1746F3F500A993A2 /* CHAddShiftViewController.m in Sources */,
+				C0DDEF4E1746F53A00A993A2 /* CHShiftViewController.m in Sources */,
+				C0DDEF511746F54F00A993A2 /* CHShiftView.m in Sources */,
+				C0DDEF541746F81300A993A2 /* CHAddShiftView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +339,7 @@
 				C0A44F3E1743C5C20051139A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
